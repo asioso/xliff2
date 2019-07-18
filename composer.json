@@ -1,0 +1,46 @@
+{
+  "name": "asioso/xliff2_0-module",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "description": "A bundle to help deal with xliff2.0 translation files",
+  "keywords": [
+    "pimcore",
+    "pimcore-plugin",
+    "marketplace",
+    "e-commerce",
+    "translation",
+    "xliff2.0"
+
+  ],
+  "homepage": "https://www.asioso.com",
+  "authors": [
+    {
+      "name": "asioso GmbH",
+      "homepage": "https://www.asioso.com",
+      "email": "info@asioso.de",
+      "role": "Developer"
+    },
+    {
+      "name": "Fabian Pechstein",
+      "email": "fabian.pechstein@asioso.com",
+      "homepage": "https://www.asioso.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "pimcore/pimcore": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xliff2Bundle\\": "src/Xliff2Bundle"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Xliff2Bundle\\Xliff2Bundle"
+      ]
+    }
+  }
+}
