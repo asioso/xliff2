@@ -37,7 +37,6 @@ class NotedAttributeSet extends AttributeSet
     {
         parent::__construct($set->getTranslationItem());
 
-
         $this->set = $set;
     }
 

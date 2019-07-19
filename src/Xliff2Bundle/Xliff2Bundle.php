@@ -29,7 +29,7 @@ class Xliff2Bundle extends AbstractPimcoreBundle implements PimcoreBundleInterfa
 
     public function getNiceName()
     {
-        return 'Asioso - Xliff 2.ß Bundle';
+        return 'Asioso - Xliff 2.0 Bundle';
     }
 
     /**
