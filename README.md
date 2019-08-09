@@ -6,16 +6,18 @@
 * Composer (https://getcomposer.org/download/)
 * A Pimcore  Installation using the pimcore e-commerce framework (v5.7 or higher)
 
+![editor notes][notes]     
+![editor view][editor]     
 
 ## Installation
 
-composer-no-brainer ... 
-
-**TODO: add private repor or packagist!** 
+```bash
+composer require asioso/pimcore-xliff2_0-module
+``` 
 
 ## Configuration
 
-just enable the bundle
+just enable the bundle in the pimcore extension manager
 
 ## Translation Notes
 
@@ -48,4 +50,12 @@ pimcore_admin:
                 - 'translation'
 
 ```
+
+## Xliff 1
+
+xliff1 and xliff2.0 are not compatible. to switch back to xliff1 just disable this bundle again, but make sure you have re-imported all your xliff2 files before doing that.
+
+[editor]: https://github.com/asioso/xliff2/raw/master/documentation/img/xliff_editor.png "xliff editor"
+[notes]: https://github.com/asioso/xliff2/raw/master/documentation/img/translation_notes.png "editor-notes"
+
 

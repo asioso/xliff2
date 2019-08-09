@@ -1,8 +1,8 @@
 {
-  "name": "asioso/xliff2_0-module",
+  "name": "asioso/pimcore-xliff2_0-module",
   "type": "pimcore-bundle",
   "license": "GPL-3.0-or-later",
-  "description": "A bundle to help deal with xliff2.0 translation files",
+  "description": "A bundle to help produce xliff2.0 translation files from pimcore",
   "keywords": [
     "pimcore",
     "pimcore-plugin",
