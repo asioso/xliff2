@@ -1,10 +1,9 @@
-# Asioso Xliff2.0 Bundle
-
+# Asioso Xliff2.0 Translation Pimcore Bundle
 
 ## Prerequisites
 * PHP 7.1 or higher (https://secure.php.net/)
 * Composer (https://getcomposer.org/download/)
-* A Pimcore  Installation using the pimcore e-commerce framework (v5.7 or higher)
+* A Pimcore  Installation (v5.7 or higher)
 
 ![editor notes][notes]     
 ![editor view][editor]     
