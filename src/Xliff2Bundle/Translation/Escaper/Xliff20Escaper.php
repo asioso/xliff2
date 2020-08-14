@@ -14,8 +14,6 @@ namespace Xliff2Bundle\Translation\Escaper;
 
 class Xliff20Escaper
 {
-
-
     const SELFCLOSING_TAGS = ['area', 'base', 'br', 'col', 'command', 'embed', 'hr', 'img', 'input', 'keygen', 'link', 'meta', 'param', 'source', 'track', 'wbr'];
     const CONTENT = "content";
     const ORIGINAL_DATA = "originalData";

@@ -30,9 +30,9 @@ class Xliff20Exporter implements ExporterInterface
      */
     private $xliff20Escaper;
 
-    public function __construct(Xliff20Escaper $xliff20Escaper)
+    public function __construct()
     {
-        $this->xliff20Escaper = $xliff20Escaper;
+        $this->xliff20Escaper = new Xliff20Escaper();
     }
 
 

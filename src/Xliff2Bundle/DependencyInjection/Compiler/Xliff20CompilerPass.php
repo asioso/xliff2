@@ -29,7 +29,6 @@ class Xliff20CompilerPass implements CompilerPassInterface
         $definition = $container->getDefinition('Pimcore\Translation\ExportDataExtractorService\DataExtractor\DocumentDataExtractor');
         $definition->setClass('Xliff2Bundle\Translation\ExportDataExtractorService\DataExtractor\NotedDocumentDataExtractor');
 
-
         $definition = $container->getDefinition('Pimcore\Translation\ExportDataExtractorService\ExportDataExtractorServiceInterface');
         $definition->setClass('Xliff2Bundle\Translation\ExportDataExtractorService\NotedExportDataExtractorServiceInterface');
 

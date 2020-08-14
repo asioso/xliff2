@@ -29,7 +29,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "pimcore/pimcore": ">=5.0"
+    "pimcore/pimcore": ">=6.0"
   },
   "autoload": {
     "psr-4": {

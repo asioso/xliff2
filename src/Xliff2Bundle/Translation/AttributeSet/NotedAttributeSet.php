@@ -119,11 +119,12 @@ class NotedAttributeSet extends AttributeSet
      * @param string $content
      * @param bool $isReadonly
      *
+     * @param array $targetContent
      * @return AttributeSet
      */
-    public function addAttribute(string $type, string $name, string $content, bool $isReadonly = false): AttributeSet
+    public function addAttribute(string $type, string $name, string $content, bool $isReadonly = false, array $targetContent = []): AttributeSet
     {
-        $this->set->addAttribute($type, $name, $content, $isReadonly);
+        $this->set->addAttribute($type, $name, $content, $isReadonly, $targetContent);
 
         return $this;
     }
